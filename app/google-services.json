@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "794439123713",
+    "firebase_url": "https://mchacks-91ac2.firebaseio.com",
+    "project_id": "mchacks-91ac2",
+    "storage_bucket": "mchacks-91ac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794439123713:android:dc32311f9c9e0e14",
+        "android_client_info": {
+          "package_name": "com.example.alphaparker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794439123713-rupe7rpbc9ntvf1gscidurlknkqfc4gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alphaparker",
+            "certificate_hash": "020a51c44c4896a00a2a37834c9d545043e23a34"
+          }
+        },
+        {
+          "client_id": "794439123713-crom1iascop9v1601e842lje4bu2hsjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdNWVJy860-RXJUDgQHYu9C2oZZACynJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794439123713-smj8ichqqak1u543o8i8hjupv4oi12hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

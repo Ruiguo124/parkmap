@@ -65,29 +65,29 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat simpleDateformat = new SimpleDateFormat("E"); // the day of the week abbreviated
         String dayOfTheWeek = simpleDateformat.format(date);
 
-        if(dayOfTheWeek.equals("Mon"))
-        {
-        day = 1;
-    }
-       else if(dayOfTheWeek.equals("Tue")){
-        day = 2;
-    }
-       else if(dayOfTheWeek.equals("Wed")){
-        day = 3;
-    }
-       else if(dayOfTheWeek.equals("Thu")){
-        day = 4;
-    }
-       else if(dayOfTheWeek.equals("Fri")){
-        day = 5;
-    }
-       else if(dayOfTheWeek.equals("Sat")){
-        day = 6;
-    }
+        if(dayOfTheWeek.equals("Mon")){
+            day = 1;
+        }
+        else if(dayOfTheWeek.equals("Tue")){
+            day = 2;
+        }
+        else if(dayOfTheWeek.equals("Wed")){
+            day = 3;
+        }
+        else if(dayOfTheWeek.equals("Thu")){
+            day = 4;
+        }
+        else if(dayOfTheWeek.equals("Fri")){
+            day = 5;
+        }
+        else if(dayOfTheWeek.equals("Sat")){
+            day = 6;
+        }
        else if(dayOfTheWeek.equals("Sun")){
-        day = 7;
-    }        TextView textViewTime = findViewById(R.id.textView2);
-    String formattedDate= dateFormat.format(date);
+            day = 7;
+       }
+       TextView textViewTime = findViewById(R.id.textView2);
+       String formattedDate= dateFormat.format(date);
        textViewTime.setText(hourInput + "h");
 
 
